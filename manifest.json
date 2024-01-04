@@ -2,12 +2,16 @@
     "name": "Basic weather app",
     "description": "an app to display the weather",
     "version": "0.0.1",
-    "manifest_version": 2,
-    "browser_action": {
+    "manifest_version": 3,
+    "action": {
         "default_popup": "./popup.html",
-        "default_icon": ""
+        "default_icon": "./weathericon128.png"
     },
     "icons": {
+        "32": "./weathericon32.png",
+        "48": "./weathericon48.png",
+        "128": "./weathericon128.png"
+
 
     },
     "permissions": ["activeTab"]
